@@ -5,3 +5,9 @@ This widget gives you the temperature depending on your location using 2 APIs :
 
 <img width="514" alt="image" src="https://github.com/LaikaIB/widget-meteo/assets/127234839/5d10ca44-f010-4926-878b-055ecfce4536">
 
+### install the wigdet
+- Get React modele Vite in your terminal : `./React-modele-vite/bin/install.sh`
+- git clone the project : `git@github.com:LaikaIB/widget-meteo.git`
+- Launch your dev server
+
+You can add this widget into every app !
