@@ -1,9 +1,13 @@
 @use 'reset';
 @use 'variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap');
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	height: 100vh;
+	background: #8a2387;
+  background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+	font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
