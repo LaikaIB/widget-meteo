@@ -7,7 +7,7 @@ This widget gives you the temperature depending on your location using 2 APIs :
 
 ### install the wigdet
 - Get React modele Vite in your terminal : `./React-modele-vite/bin/install.sh`
-- git clone the project : `git@github.com:LaikaIB/widget-meteo.git`
+- git clone the widget : `git@github.com:LaikaIB/widget-meteo.git`
 - Launch your dev server
 
 You can add this widget into every app !
