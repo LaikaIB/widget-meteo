@@ -27,11 +27,11 @@ const WidgetMeteo = () => {
       const latitudeFromApi = (response.data.location.latitude).toFixed(4);
       const longitudeFromApi = (response.data.location.longitude).toFixed(4);
 
-      return axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${latitudeFromApi}&longitude=${longitudeFromApi}&hourly=temperature_2m`);
+      return axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${latitudeFromApi}&longitude=${longitudeFromApi}&hourly=temperature_2m&current_weather=true`);
     })
       .then((response) => {
         console.log(response.data);
-        const temperatureFromApi = response.data.hourly.temperature_2m[0];
+        const temperatureFromApi = response.data.current_weather.temperature;
         const temperatureToDisplay = temperatureFromApi.toFixed(1);
         setTemperature(`${temperatureToDisplay} °C`);
       })
